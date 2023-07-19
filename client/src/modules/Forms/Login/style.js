@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 export const FormWrap = styled.div`
   width: 100%;
   height: 100%;
-  max-width: 500px;
+  max-width: 400px;
+
   border-radius: var(--radius-cards);
   padding: 20px;
   background-color: var(--background-card);
@@ -25,6 +26,7 @@ export const FormStyle = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 `
 
 export const WelcomeLogo = styled.div`
@@ -58,7 +60,7 @@ export const Message = styled.span`
 `
 
 export const ForgotPassword = styled(Link)`
-  margin: 8px;
+  margin: 10px;
   align-self: center;
   font-size: 14px;
   color: var(--primary);
